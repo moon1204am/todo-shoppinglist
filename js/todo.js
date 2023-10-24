@@ -32,6 +32,7 @@ function display() {
 listContainer.addEventListener('click', (event) => {
     if(event.target.tagName === 'LI') {
         event.target.classList.toggle('text-decoration-line-through');
+        event.target.classList.toggle('change');
         save()
     } else if(event.target.tagName === 'SPAN') {
         event.target.parentElement.remove();

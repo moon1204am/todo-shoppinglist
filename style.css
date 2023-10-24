@@ -78,3 +78,8 @@ ul li span:hover {
     padding: 40px 30px 15px;
     border-radius: 19px;
 }
+
+.change {
+    background-color:#eec7e1;
+    border-radius: 10px;
+}
